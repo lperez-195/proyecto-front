@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2> Registro de producto </h2>
+
+<div>
+  <label> Producto </label>
+  <input type="text" id="nombre">
+</div>
+<div>
+  <label> Precio </label>
+  <input type="text" id="precio">
+</div>
+<div>
+  <label> Vendedor </label>
+  <input type="text" id="vendedor">
+</div>
+<div>
+  <label> Tel. </label>
+  <input type="text" id="telefono">
+</div>
+
+<button onclick="postProducto()"> Registar </button>
+<br><br>
+<button onclick="getProductos()"> Mostar Productos </button>
+
+<br><br>
+<div id="resultado"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="callrestapi.js"></script>
+
+</body></html>
